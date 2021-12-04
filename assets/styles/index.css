@@ -1,0 +1,29 @@
+.homeWork-1 {
+    height: 350px;
+    width: 220px;
+    padding: 15px 10px 20px;
+    margin-bottom: 30px;
+    border: 2px dashed red;
+    background: green;
+}
+
+.homeWork-2 {
+    text-align: justify;
+}
+
+.homeWork-2 .image-top {
+    float: left;
+    margin: 0 15px 10px 0;
+}
+
+.homeWork-2 .image-bottom {
+    float: right;
+    width: 250px;
+    margin: 10px 0 10px 15px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
